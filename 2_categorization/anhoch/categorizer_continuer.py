@@ -16,7 +16,7 @@ BACKOFF_MULTIPLIER = 2
 JITTER_RANGE = 0.2
 
 try:
-    api_key = "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"
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise ValueError("GROQ_API_KEY environment variable not set.")
     client = AsyncGroq(api_key=api_key)

@@ -8,7 +8,7 @@ CATEGORIZED_PRODUCTS_CSV = 'anhoch_products_preprocessed.csv'
 SCHEMA_OUTPUT_DIRECTORY = './schemas'
 
 try:
-    client = Groq(api_key="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")
+    client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 except Exception as e:
     print(f"Error initializing Groq client: {e}")
     exit()

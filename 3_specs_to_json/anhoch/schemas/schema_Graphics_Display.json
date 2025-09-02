@@ -1,0 +1,13 @@
+{
+    "brand": "",
+    "model": "",
+    "gpu_type": "",
+    "gpu_memory": "",
+    "memory_bandwidth": "",
+    "memory_interface": "",
+    "directx_version": "",
+    "opengl_version": "",
+    "vulkan_version": "",
+    "max_resolution": "",
+    "multi_monitor_support": ""
+}

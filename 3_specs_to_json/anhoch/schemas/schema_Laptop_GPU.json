@@ -1,0 +1,12 @@
+{
+    "brand": "",
+    "model": "",
+    "gpu_type": "",
+    "memory": "",
+    "memory_type": "",
+    "clock_speed": "",
+    "cuda_cores": "",
+    "opencl_support": "",
+    "directx_support": "",
+    "opengl_support": ""
+}

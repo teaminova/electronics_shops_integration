@@ -5,26 +5,19 @@ import asyncio
 import random
 from typing import Tuple
 
-# --- Configuration ---
 SOURCE_CSV_DIRECTORY = './'
 OUTPUT_CSV = 'anhoch_products_categorized.csv'
-# Increase concurrency to process requests in parallel. 20 is a safe number below the 30 RPM limit.
+
 CONCURRENT_BATCH_SIZE = 20
-# Add a small delay between batches to respect the RPM limit over time.
 DELAY_BETWEEN_BATCHES_S = 2
 
-# --- Retry Configuration ---
-# Reduced max retries, as if it fails this many times, there's a bigger issue.
 MAX_RETRIES = 10
-BASE_DELAY = 2  # Start with a slightly longer delay
+BASE_DELAY = 2
 MAX_DELAY = 60
 BACKOFF_MULTIPLIER = 2
 JITTER_RANGE = 0.2
 
-# --- Initialization ---
 try:
-    # BEST PRACTICE: Load API key from environment variables for security.
-    # api_key = os.environ.get("GROQ_API_KEY") TODO: ADD .ENV
     api_key = "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"
     if not api_key:
         raise ValueError("GROQ_API_KEY environment variable not set.")
@@ -35,21 +28,18 @@ except Exception as e:
 
 
 def calculate_delay(attempt: int) -> float:
-    """Calculate delay with exponential backoff and jitter."""
     delay = min(BASE_DELAY * (BACKOFF_MULTIPLIER ** attempt), MAX_DELAY)
     jitter = delay * JITTER_RANGE * random.random()
     return delay + jitter
 
 
 def is_retryable_error(error: Exception) -> bool:
-    """Check if error is retryable (rate limits, timeouts, server errors)."""
     error_str = str(error).lower()
     retryable_indicators = ['429', '500', '502', '503', '504', 'timeout', 'connection error', 'server error']
     return any(indicator in error_str for indicator in retryable_indicators)
 
 
 async def get_category_with_retry(title, specs, original_index) -> Tuple[int, str]:
-    """Asynchronously categorizes a single product with retry logic."""
     if pd.isna(title) or pd.isna(specs):
         return original_index, "Unknown"
 
@@ -86,14 +76,11 @@ async def get_category_with_retry(title, specs, original_index) -> Tuple[int, st
                 print(f"  [Row {original_index + 1}] NON-RETRYABLE ERROR: {e}")
                 return original_index, "Categorization Error"
 
-    # If all retries fail
     print(f"  [Row {original_index + 1}] FINAL ERROR after {MAX_RETRIES} retries.")
     return original_index, "Categorization Error"
 
 
 async def main():
-    """Main function to run the categorization in concurrent batches."""
-    # Load data once
     all_dfs = []
     for filename in os.listdir(SOURCE_CSV_DIRECTORY):
         if filename.endswith('.csv'):
@@ -134,7 +121,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    # To run the script, first set your API key in your terminal:
-    # On macOS/Linux: export GROQ_API_KEY='YOUR_NEW_API_KEY'
-    # On Windows: set GROQ_API_KEY="YOUR_NEW_API_KEY"
     asyncio.run(main())

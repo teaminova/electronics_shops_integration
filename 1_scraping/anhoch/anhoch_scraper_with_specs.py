@@ -32,14 +32,11 @@ def scrape_specifications(batch_df):
 
 
 def main():
-    # Load existing CSV
     df = pd.read_csv(INPUT_CSV)
 
-    # Make sure Specifications column exists
     if "Specifications" not in df.columns:
         df["Specifications"] = ""
 
-    # Identify rows with missing or empty Specifications
     missing_specs_df = df[df["Specifications"].isnull() | (df["Specifications"].str.strip() == "")]
     total_missing = len(missing_specs_df)
     print(f"Total products with missing specs: {total_missing}")
@@ -50,11 +47,9 @@ def main():
 
         batch_df = missing_specs_df.iloc[start:end]
 
-        # Scrape and update specs
         new_specs = scrape_specifications(batch_df)
         df.loc[batch_df.index, "Specifications"] = new_specs
 
-        # Save progress
         df.to_csv(OUTPUT_CSV, index=False)
         print(f"Batch {start}–{end} saved.\nSleeping 5 seconds before next batch...")
         time.sleep(5)

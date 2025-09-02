@@ -9,22 +9,22 @@ import json
 def clean_text(text):
     if pd.isnull(text):
         return ""
-    text = str(text).lower()  # Ensure text is string
-    text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
-    return re.sub(r'\s+', ' ', text).strip()  # Normalize whitespace
+    text = str(text).lower()
+    text = re.sub(r'[^\w\s]', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 def flatten_json_for_text(data):
     parts = []
     if isinstance(data, dict):
-        for key in sorted(data.keys()):  # Sort keys for consistency
+        for key in sorted(data.keys()):
             value = data[key]
-            parts.append(str(key))  # Add the key
-            parts.extend(flatten_json_for_text(value))  # Recursively process value
+            parts.append(str(key))
+            parts.extend(flatten_json_for_text(value))
     elif isinstance(data, list):
         for item in data:
-            parts.extend(flatten_json_for_text(item))  # Recursively process list items
-    elif pd.notnull(data) and str(data).strip() != "":  # Add non-null, non-empty values
+            parts.extend(flatten_json_for_text(item))
+    elif pd.notnull(data) and str(data).strip() != "":
         parts.append(str(data))
     return parts
 
@@ -35,11 +35,11 @@ def json_to_representative_string(json_obj):
             return ""
         if isinstance(json_obj, list):
             flat_parts = flatten_json_for_text(json_obj)
-            return " ".join(part for part in flat_parts if part)  # Ensure no empty strings from keys
-        return str(json_obj)  # Fallback for non-dict, non-list types
+            return " ".join(part for part in flat_parts if part)
+        return str(json_obj)
 
     flat_parts = flatten_json_for_text(json_obj)
-    return " ".join(part for part in flat_parts if part)  # Ensure no empty strings from keys
+    return " ".join(part for part in flat_parts if part)
 
 
 def preprocess_dataframe(df):
@@ -131,7 +131,6 @@ def match_products(file1, file2, output_file, top_k=3, title_threshold=0.5, spec
 
             if len(specs1_clean_str) > 10 and len(specs2_clean_str) > 10 and \
                     have_no_shared_model_tokens(specs1_clean_str, specs2_clean_str):
-                # print(f"Skipping match ({i},{j}) due to no shared model tokens. Title: {current_title_score:.2f}, Spec: {current_spec_score:.2f}")
                 continue
 
             combined_score = (current_title_score + current_spec_score) / 2.0
@@ -146,23 +145,22 @@ def match_products(file1, file2, output_file, top_k=3, title_threshold=0.5, spec
 
         if best_match_for_product_i is not None:
             idx_store2 = best_match_for_product_i['index_store2']
-            matched_store2_indices.add(idx_store2)  # Mark as matched
+            matched_store2_indices.add(idx_store2)
 
             merged_rows.append({
                 "Title_Store1": df1.iloc[i]["Title"],
                 "Title_Store2": df2.iloc[idx_store2]["Title"],
-                "Price_Store1": df1.iloc[i].get("Price"),  # Use .get for safety if column missing
+                "Price_Store1": df1.iloc[i].get("Price"),
                 "Price_Store2": df2.iloc[idx_store2].get("Price"),
                 "HappyPrice_Store1": df1.iloc[i].get("HappyPrice"),
                 "HappyPrice_Store2": df2.iloc[idx_store2].get("HappyPrice"),
                 "Link_Store1": df1.iloc[i]["Link"],
                 "Link_Store2": df2.iloc[idx_store2]["Link"],
-                "Specs_JSON_Store1": df1.iloc[i]["extracted_specs"],  # Original JSON specs
+                "Specs_JSON_Store1": df1.iloc[i]["extracted_specs"],
                 "Specs_JSON_Store2": df2.iloc[idx_store2]["extracted_specs"],
                 # "Specs_Cleaned_Store1": df1.iloc[i]["Specs_clean"], # For debugging
                 # "Specs_Cleaned_Store2": df2.iloc[idx_store2]["Specs_clean"], # For debugging
                 "Image_Store1": df1.iloc[i].get("Image", df1.iloc[i].get("Image Src")),
-                # Handle different image col names
                 "Image_Store2": df2.iloc[idx_store2].get("Image", df2.iloc[idx_store2].get("Image Src")),
                 "Title_Similarity_Score": round(best_match_for_product_i['title_sim'], 4),
                 "Specs_Similarity_Score": round(best_match_for_product_i['spec_sim'], 4)

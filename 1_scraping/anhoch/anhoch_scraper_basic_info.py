@@ -121,14 +121,11 @@ def save_to_csv(all_products, file_name):
 
 
 def main():
-    # Get categories
     url = "https://www.anhoch.com/categories"
     category_urls = get_category_urls(url)
 
-    # Get products
     all_products = get_products(category_urls)
 
-    # Save to CSV
     file_name = "anhoch_products.csv"
     save_to_csv(all_products, file_name)
 

@@ -5,22 +5,17 @@ import asyncio
 import random
 from typing import Tuple
 
-# --- Configuration ---
-# IMPORTANT: Make sure this points to your file with the partial results
 INPUT_AND_OUTPUT_CSV = 'anhoch_products_categorized.csv'
 CONCURRENT_BATCH_SIZE = 20
 DELAY_BETWEEN_BATCHES_S = 2
 
-# --- Retry Configuration ---
 MAX_RETRIES = 10
 BASE_DELAY = 2
 MAX_DELAY = 60
 BACKOFF_MULTIPLIER = 2
 JITTER_RANGE = 0.2
 
-# --- Initialization ---
 try:
-    # api_key = os.environ.get("GROQ_API_KEY")
     api_key = "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"
     if not api_key:
         raise ValueError("GROQ_API_KEY environment variable not set.")
@@ -31,21 +26,17 @@ except Exception as e:
 
 
 def is_retryable_error(error: Exception) -> bool:
-    """Check if error is retryable (rate limits, timeouts, server errors)."""
     error_str = str(error).lower()
     retryable_indicators = ['429', '500', '502', '503', '504', 'timeout', 'connection error', 'server error']
     return any(indicator in error_str for indicator in retryable_indicators)
 
 def calculate_delay(attempt: int) -> float:
-    """Calculate delay with exponential backoff and jitter."""
     delay = min(BASE_DELAY * (BACKOFF_MULTIPLIER ** attempt), MAX_DELAY)
     jitter = delay * JITTER_RANGE * random.random()
     return delay + jitter
 
-# (The helper functions calculate_delay, is_retryable_error, and get_category_with_retry remain exactly the same)
 
 async def get_category_with_retry(title, specs, original_index) -> Tuple[int, str]:
-    """Asynchronously categorizes a single product with retry logic."""
     if pd.isna(title) or pd.isna(specs):
         return original_index, "Unknown"
 
@@ -87,9 +78,7 @@ async def get_category_with_retry(title, specs, original_index) -> Tuple[int, st
 
 
 async def main():
-    """Main function that now resumes categorization from the existing output file."""
 
-    # --- MODIFICATION 1: Load the existing output file ---
     if not os.path.exists(INPUT_AND_OUTPUT_CSV):
         print(f"Error: The file '{INPUT_AND_OUTPUT_CSV}' was not found. Please check the filename.")
         return
@@ -97,8 +86,6 @@ async def main():
     print(f"Loading existing data from '{INPUT_AND_OUTPUT_CSV}'...")
     df = pd.read_csv(INPUT_AND_OUTPUT_CSV)
 
-    # --- MODIFICATION 2: Filter for rows that need processing ---
-    # A row needs processing if 'Category' is empty or NaN (Not a Number)
     pending_df = df[df['Category'].isnull() | (df['Category'] == '')].copy()
 
     if pending_df.empty:
@@ -109,8 +96,6 @@ async def main():
     print(f"Found {len(df)} total products. {total_pending} products are pending categorization.")
     print(f"Running with {CONCURRENT_BATCH_SIZE} concurrent requests per batch.\n")
 
-    # --- MODIFICATION 3: Process only the pending rows ---
-    # Note: We iterate over `pending_df` but use the original index to update the main `df`
     for start in range(0, total_pending, CONCURRENT_BATCH_SIZE):
         end = min(start + CONCURRENT_BATCH_SIZE, total_pending)
         chunk_df = pending_df.iloc[start:end]
@@ -123,7 +108,6 @@ async def main():
         for index, category in results:
             df.at[index, 'Category'] = category
 
-        # Save the updated main DataFrame back to the same file
         df.to_csv(INPUT_AND_OUTPUT_CSV, index=False)
         print(f"--- Batch complete. Progress saved. Cooling down for {DELAY_BETWEEN_BATCHES_S}s... ---\n")
         await asyncio.sleep(DELAY_BETWEEN_BATCHES_S)

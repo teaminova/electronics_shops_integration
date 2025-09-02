@@ -5,22 +5,17 @@ import asyncio
 import random
 from typing import Tuple
 
-# --- Configuration ---
-# IMPORTANT: Make sure this points to your file with the partial results
 INPUT_AND_OUTPUT_CSV = 'anhoch_products_categorized.csv'
 CONCURRENT_BATCH_SIZE = 20
 DELAY_BETWEEN_BATCHES_S = 120
 
-# --- Retry Configuration ---
 MAX_RETRIES = 10
 BASE_DELAY = 2
 MAX_DELAY = 60
 BACKOFF_MULTIPLIER = 2
 JITTER_RANGE = 0.2
 
-# --- Initialization ---
 try:
-    # api_key = os.environ.get("GROQ_API_KEY")
     api_key = "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"
     if not api_key:
         raise ValueError("GROQ_API_KEY environment variable not set.")
@@ -31,21 +26,17 @@ except Exception as e:
 
 
 def is_retryable_error(error: Exception) -> bool:
-    """Check if error is retryable (rate limits, timeouts, server errors)."""
     error_str = str(error).lower()
     retryable_indicators = ['429', '500', '502', '503', '504', 'timeout', 'connection error', 'server error']
     return any(indicator in error_str for indicator in retryable_indicators)
 
 def calculate_delay(attempt: int) -> float:
-    """Calculate delay with exponential backoff and jitter."""
     delay = min(BASE_DELAY * (BACKOFF_MULTIPLIER ** attempt), MAX_DELAY)
     jitter = delay * JITTER_RANGE * random.random()
     return delay + jitter
 
-# (The helper functions calculate_delay, is_retryable_error, and get_category_with_retry remain exactly the same)
 
 async def get_category_with_retry(title, specs, original_index) -> Tuple[int, str]:
-    """Asynchronously categorizes a single product with retry logic."""
     if pd.isna(title) or pd.isna(specs):
         return original_index, "Unknown"
 
@@ -87,9 +78,7 @@ async def get_category_with_retry(title, specs, original_index) -> Tuple[int, st
 
 
 async def main():
-    """Main function that resumes categorization only for 'Categorization Error' entries."""
 
-    # --- Load the existing output file ---
     if not os.path.exists(INPUT_AND_OUTPUT_CSV):
         print(f"❌ Error: The file '{INPUT_AND_OUTPUT_CSV}' was not found. Please check the filename.")
         return
@@ -97,7 +86,6 @@ async def main():
     print(f"📂 Loading existing data from '{INPUT_AND_OUTPUT_CSV}'...")
     df = pd.read_csv(INPUT_AND_OUTPUT_CSV)
 
-    # --- Filter only rows that have 'Categorization Error' ---
     pending_df = df[df['Category'].astype(str).str.strip().str.lower() == 'categorization error'].copy()
 
     if pending_df.empty:

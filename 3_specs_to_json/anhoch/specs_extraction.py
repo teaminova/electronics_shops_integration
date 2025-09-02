@@ -6,7 +6,6 @@ import json
 import random
 from typing import Tuple, Dict, Any
 
-# --- Configuration ---
 PREPROCESSED_CSV = 'anhoch_products_preprocessed.csv'
 SCHEMA_DIRECTORY = './schemas'
 OUTPUT_CSV = 'anhoch_products_extracted_specs.csv'
@@ -14,14 +13,12 @@ OUTPUT_CSV = 'anhoch_products_extracted_specs.csv'
 CONCURRENT_BATCH_SIZE = 15
 DELAY_BETWEEN_BATCHES_S = 60
 
-# --- Retry Configuration ---
 MAX_RETRIES = 10
 BASE_DELAY = 2
 MAX_DELAY = 60
 BACKOFF_MULTIPLIER = 2
 JITTER_RANGE = 0.2
 
-# --- Initialization ---
 try:
     api_key = "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"
     if not api_key:
@@ -31,8 +28,6 @@ except Exception as e:
     print(f"Error initializing Groq client: {e}")
     exit()
 
-
-# --- Helper & Core Extraction Functions (No Changes Here) ---
 
 def calculate_delay(attempt: int) -> float:
     delay = min(BASE_DELAY * (BACKOFF_MULTIPLIER ** attempt), MAX_DELAY)
@@ -89,10 +84,8 @@ async def extract_data_with_retry(title: str, specs: str, schema: Dict[str, Any]
     return original_index, {"extraction_status": "error_retries_failed"}
 
 
-# --- Main Application Logic (With Modifications) ---
 async def main():
-    """Main function to load data, manage state, and run extraction concurrently."""
-    # 1. Load Schemas
+
     if not os.path.exists(SCHEMA_DIRECTORY):
         print(f"Error: Schema directory '{SCHEMA_DIRECTORY}' not found.")
         return
@@ -104,7 +97,6 @@ async def main():
                 schemas[category_name] = json.load(f)
     print(f"Loaded {len(schemas)} schemas.")
 
-    # 2. Prepare DataFrame and Handle Resume Logic
     if not os.path.exists(PREPROCESSED_CSV):
         print(f"Error: Preprocessed CSV '{PREPROCESSED_CSV}' not found.")
         return
@@ -117,11 +109,9 @@ async def main():
     else:
         print(f"Starting a new extraction. Output will be saved to '{OUTPUT_CSV}'")
         df = source_df.copy()
-        # MODIFICATION 1: Add the new columns for status and the JSON string
         df['extraction_status'] = ''
         df['extracted_specs'] = ''
 
-    # 3. Identify Pending Work
     pending_df = df[df['extraction_status'] != 'complete'].copy()
 
     if pending_df.empty:
@@ -131,7 +121,6 @@ async def main():
     total_pending = len(pending_df)
     print(f"Found {len(df)} total products. {total_pending} products are pending extraction.")
 
-    # 4. Process in Batches
     for start in range(0, total_pending, CONCURRENT_BATCH_SIZE):
         end = min(start + CONCURRENT_BATCH_SIZE, total_pending)
         chunk_df = pending_df.iloc[start:end]
@@ -152,18 +141,14 @@ async def main():
 
         batch_results = await asyncio.gather(*tasks)
 
-        # 5. MODIFICATION 2: Update DataFrame and Save Progress
         for index, extracted_data in batch_results:
             await asyncio.sleep(1)
             if extracted_data:
-                # Pop the status from the dict to keep the JSON clean
                 status = extracted_data.pop('extraction_status', 'error')
                 df.at[index, 'extraction_status'] = status
 
-                # Convert the remaining dictionary to a JSON string and save it
                 df.at[index, 'extracted_specs'] = json.dumps(extracted_data)
             else:
-                # Handle cases where the extraction task itself failed and returned None
                 df.at[index, 'extraction_status'] = 'error'
 
         df.to_csv(OUTPUT_CSV, index=False)

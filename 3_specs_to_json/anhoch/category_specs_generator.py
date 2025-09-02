@@ -4,13 +4,10 @@ from groq import Groq
 import json
 import time
 
-# --- Configuration ---
 CATEGORIZED_PRODUCTS_CSV = 'anhoch_products_preprocessed.csv'
 SCHEMA_OUTPUT_DIRECTORY = './schemas'
 
-# Initialize the Groq client
 try:
-    # client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
     client = Groq(api_key="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")
 except Exception as e:
     print(f"Error initializing Groq client: {e}")
@@ -59,15 +56,14 @@ def generate_schema_for_category(category):
             model="llama3-70b-8192",
             temperature=0.1,
         )
-        # Clean up the response to ensure it's valid JSON
+
         response_text = chat_completion.choices[0].message.content.strip()
-        # Remove potential markdown code blocks
+
         if response_text.startswith("```json"):
             response_text = response_text[7:]
         if response_text.endswith("```"):
             response_text = response_text[:-3]
 
-        # Validate and return JSON
         return json.loads(response_text)
     except Exception as e:
         print(f"An API or JSON parsing error occurred for category '{category}': {e}")
@@ -75,15 +71,11 @@ def generate_schema_for_category(category):
 
 
 def main():
-    """
-    Main function to find unique categories and generate a schema for each.
-    """
     if not os.path.exists(CATEGORIZED_PRODUCTS_CSV):
         print(f"Error: The input file '{CATEGORIZED_PRODUCTS_CSV}' was not found.")
         print("Please run Step 1 first.")
         return
 
-    # Create the output directory if it doesn't exist
     if not os.path.exists(SCHEMA_OUTPUT_DIRECTORY):
         os.makedirs(SCHEMA_OUTPUT_DIRECTORY)
 
@@ -100,14 +92,13 @@ def main():
         schema = generate_schema_for_category(category)
 
         if schema:
-            # Sanitize category name for filename
             filename = f"schema_{category.replace(' ', '_').replace('/', '_')}.json"
             filepath = os.path.join(SCHEMA_OUTPUT_DIRECTORY, filename)
             with open(filepath, 'w') as f:
                 json.dump(schema, f, indent=4)
             print(f"-> Schema saved to {filepath}")
 
-        time.sleep(1)  # Rate limiting
+        time.sleep(1)
 
     print("\nSchema generation complete!")
 

@@ -63,13 +63,6 @@ async def scrape_products(context, url):
             "#affix2 > div > div.product-list-filters-top > div.product-list-filters-top__item.product-list-filters-top__item--number > select"
         )
         if selects:
-            # try:
-            #     await selects[0].select_option(value="number:100")
-            #     print(f"[{url}] Selected number:100")
-            #     await page.wait_for_load_state("networkidle")
-            #     # await page.wait_for_timeout(10000)
-            # except Exception as e:
-            #     print(f"[{url}] Dropdown error: {e}")
             try:
                 async with page.expect_response(
                         lambda response: response.status == 200
@@ -167,7 +160,7 @@ async def scrape_page(context, category_url, base_url):
                 products = await scrape_products(context, full_url)
                 all_products.extend(products)
 
-            # Also scrape the main category itself
+            # Also scraping the main category itself
             main_products = await scrape_products(context, category_url)
             all_products.extend(main_products)
 

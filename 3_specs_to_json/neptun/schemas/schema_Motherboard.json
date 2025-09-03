@@ -1,0 +1,18 @@
+{
+    "brand": "",
+    "model": "",
+    "form_factor": "",
+    "socket_type": "",
+    "cpu_support": "",
+    "ram_type": "",
+    "ram_slots": "",
+    "ram_max_capacity": "",
+    "storage_type": "",
+    "storage_slots": "",
+    "gpu_support": "",
+    "raid_support": "",
+    "lan_ports": "",
+    "usb_ports": "",
+    "hdmi_ports": "",
+    "audio_jacks": ""
+}

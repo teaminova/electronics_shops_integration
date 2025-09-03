@@ -1,0 +1,393 @@
+product1_id,product1_model_name,product1_category,product2_id,product2_model_name,product2_category,match_type,score
+products_anhoch-42,MS3320W,Mouse,products_neptun-1897,MS3320W,Mouse,Model Name & Category,0.50
+products_anhoch-71,Logitech B100,Mouse,products_neptun-1836,LOGITECH B100,Mouse,Model Name & Category,0.36
+products_anhoch-85,SE2422H,Monitor,products_neptun-1480,SE2422H,Monitor,Model Name & Category,0.40
+products_anhoch-117,MS116,Mouse,products_neptun-1851,MS116,Mouse,Model Name & Category,0.43
+products_anhoch-135,Galaxy Tab A9,Tablet,products_neptun-2178,Galaxy Tab A9,Tablet,Model Name & Category,0.33
+products_anhoch-138,Galaxy Tab S10 FE,Tablet,products_neptun-2209,Galaxy Tab S10 FE,Tablet,Model Name & Category,0.27
+products_anhoch-140,Galaxy Tab A9,Tablet,products_neptun-2179,Galaxy Tab A9,Tablet,Model Name & Category,0.33
+products_anhoch-157,HP 250 G10,Laptop,products_neptun-1216,HP 250 G10,Laptop,Model Name & Category,0.29
+products_anhoch-160,M100,Mouse,products_neptun-1843,M100,Mouse,Model Name & Category,0.50
+products_anhoch-199,Galaxy Tab A9+,Tablet,products_neptun-2193,Galaxy Tab A9+,Tablet,Model Name & Category,0.27
+products_anhoch-206,MK220,Keyboard,products_neptun-1775,MK220,Keyboard,Model Name & Category,0.50
+products_anhoch-210,M190,Mouse,products_neptun-1872,M190,Mouse,Model Name & Category,0.43
+products_anhoch-212,M190,Mouse,products_neptun-1871,M190,Mouse,Model Name & Category,0.36
+products_anhoch-218,KM5221W,Keyboard,products_neptun-1782,KM5221W,Keyboard,Model Name & Category,0.50
+products_anhoch-274,MS116,Mouse,products_neptun-1852,MS116,Mouse,Model Name & Category,0.50
+products_anhoch-278,KB216,Keyboard,products_neptun-1759,KB216,Keyboard,Model Name & Category,0.75
+products_anhoch-323,Vostro 3530,Laptop,products_neptun-1222,Vostro 3530,Laptop,Model Name & Category,0.33
+products_anhoch-329,KB216,Keyboard,products_neptun-1760,KB216,Keyboard,Model Name & Category,0.67
+products_anhoch-366,Windows 11 Pro,Operating System,products_neptun-2148,Windows 11 Pro,Operating System,Model Name & Category,0.50
+products_anhoch-370,HP Pavilion 400,Keyboard,products_neptun-1772,HP Pavilion 400,Keyboard,Model Name & Category,0.67
+products_anhoch-375,MS116,Mouse,products_neptun-1858,MS116,Mouse,Model Name & Category,0.43
+products_anhoch-380,Prelude G2,Laptop Bag,products_neptun-2001,PRELUDE G2,Laptop Bag,Model Name & Category,0.50
+products_anhoch-381,M100,Mouse,products_neptun-1844,M100,Mouse,Model Name & Category,0.50
+products_anhoch-441,Vostro 3520,Laptop,products_neptun-1277,Vostro 3520,Laptop,Model Name & Category,0.33
+products_anhoch-459,MK120,Keyboard,products_neptun-1771,MK120,Keyboard,Model Name & Category,0.25
+products_anhoch-500,LS32C390EAUXEN,Monitor,products_neptun-1512,LS32C390EAUXEN,Monitor,Model Name & Category,0.40
+products_anhoch-549,K280e,Keyboard,products_neptun-1765,K280e,Keyboard,Model Name & Category,0.50
+products_anhoch-555,Galaxy Tab A9+,Tablet,products_neptun-2192,Galaxy Tab A9+,Tablet,Model Name & Category,0.20
+products_anhoch-575,M280,Mouse,products_neptun-1890,M280,Mouse,Model Name & Category,0.36
+products_anhoch-599,Galaxy Tab S10 FE+,Tablet,products_neptun-2208,Galaxy Tab S10 FE,Tablet,Model Name & Category,0.20
+products_anhoch-602,LS34C500GAUXEN,Monitor,products_neptun-846,LS34C500GAUXEN,Monitor,Model Name & Category,0.70
+products_anhoch-606,LS27C360EAUXEN,Monitor,products_neptun-1482,LS27C360EAUXEN,Monitor,Model Name & Category,0.50
+products_anhoch-713,Galaxy Tab S10 FE,Tablet,products_neptun-2217,Galaxy Tab S10 FE+,Tablet,Model Name & Category,0.27
+products_anhoch-722,SoloCast,Microphone,products_neptun-1048,SoloCast,Microphone,Model Name & Category,0.64
+products_anhoch-746,LS27C390EAUXEN,Monitor,products_neptun-1497,LS27C390EAUXEN,Monitor,Model Name & Category,0.50
+products_anhoch-800,UH400,USB Hub,products_neptun-2112,UH-400,USB Hub,Model Name & Category,0.64
+products_anhoch-813,Galaxy Tab S10+,Tablet,products_neptun-2222,Galaxy TAB S10+,Tablet,Model Name & Category,0.33
+products_anhoch-848,KB216,Keyboard,products_neptun-1761,KB216,Keyboard,Model Name & Category,0.58
+products_anhoch-882,MK330,Keyboard,products_neptun-1785,MK330,Keyboard,Model Name & Category,0.50
+products_anhoch-976,34WP65CP-B,Monitor,products_neptun-1540,34WP65CP-B,Monitor,Model Name & Category,0.60
+products_anhoch-978,Galaxy Tab S10 FE+,Tablet,products_neptun-2216,Galaxy Tab S10 FE+,Tablet,Model Name & Category,0.20
+products_anhoch-979,iPad A16,Tablet,products_neptun-2203,iPad (A16),Tablet,Model Name & Category,0.13
+products_anhoch-999,MacBook Air M2,Laptop,products_neptun-1293,MacBook Air M2,Laptop,Model Name & Category,0.28
+products_anhoch-1027,Odyssey G8,Monitor,products_neptun-1554,Odyssey G8,Monitor,Model Name & Category,0.30
+products_anhoch-1039,P2723DE,Monitor,products_neptun-1538,P2723DE,Monitor,Model Name & Category,0.40
+products_anhoch-1047,Galaxy Tab S10 Ultra,Tablet,products_neptun-2227,Galaxy TAB S10 Ultra,Tablet,Model Name & Category,0.27
+products_anhoch-1074,LS27C366EAUXEN,Monitor,products_neptun-1486,LS27C366EAUXEN,Monitor,Model Name & Category,0.50
+products_anhoch-1130,iPad Air M2,Tablet,products_neptun-2214,iPad Air (M2),Tablet,Model Name & Category,0.13
+products_anhoch-1135,iPad Pro M4,Tablet,products_neptun-2229,iPad Pro (M4),Tablet,Model Name & Category,0.20
+products_anhoch-1137,iPad Pro M4,Tablet,products_neptun-2230,iPad Pro M4,Tablet,Model Name & Category,0.20
+products_anhoch-1150,MacBook Air M2,Laptop,products_neptun-1307,MacBook Air M2,Laptop,Model Name & Category,0.33
+products_anhoch-1164,Magic Keyboard Folio,Keyboard,products_neptun-2158,Magic Keyboard Folio,Keyboard,Model Name & Category,0.83
+products_anhoch-1172,MacBook Air M2,Laptop,products_neptun-1308,MacBook Air M2,Laptop,Model Name & Category,0.28
+products_anhoch-1177,Vostro 3530,Laptop,products_neptun-1254,Vostro 3530,Laptop,Model Name & Category,0.39
+products_anhoch-1184,27GS95QE-B,Monitor,products_neptun-1552,27GS95QE-B,Monitor,Model Name & Category,0.40
+products_anhoch-1211,G15 5530,Laptop,products_neptun-772,G15 5530,Laptop,Model Name & Category,0.56
+products_anhoch-1232,iPad Pro M4,Tablet,products_neptun-2231,iPad Pro (M4),Tablet,Model Name & Category,0.20
+products_anhoch-1280,U2724DE,Monitor,products_neptun-1548,U2724DE,Monitor,Model Name & Category,0.50
+products_anhoch-1284,iPad Air M2,Tablet,products_neptun-2219,iPad Air (M2),Tablet,Model Name & Category,0.20
+products_anhoch-1285,iPad Pro M4,Tablet,products_neptun-2228,iPad Pro (M4),Tablet,Model Name & Category,0.07
+products_anhoch-1298,LG 24GN60R-B,Monitor,products_neptun-823,LG 24GN60R-B,Monitor,Model Name & Category,0.60
+products_anhoch-1468,U2424H,Monitor,products_neptun-1519,U2424H,Monitor,Model Name & Category,0.40
+products_anhoch-1471,iPad Air M2,Tablet,products_neptun-2221,iPad Air (M2),Tablet,Model Name & Category,0.20
+products_anhoch-1517,Galaxy Tab A9+,Tablet,products_neptun-2195,Galaxy Tab A9+,Tablet,Model Name & Category,0.20
+products_anhoch-1563,Galaxy Tab A9+,Tablet,products_neptun-2196,Galaxy Tab A9+,Tablet,Model Name & Category,0.13
+products_anhoch-1687,PS5,Game,products_neptun-1134,PS5,Game,Model Name & Category,0.65
+products_anhoch-1697,G502 X,Mouse,products_neptun-1107,G502 X,Mouse,Model Name & Category,0.57
+products_anhoch-1701,PS5,Game,products_neptun-1167,PS5,Game,Model Name & Category,0.82
+products_anhoch-1704,Resident Evil 4,Game,products_neptun-1142,Resident Evil 4,Game,Model Name & Category,0.29
+products_anhoch-1709,PS5,Game,products_neptun-1172,PS5,Game,Model Name & Category,0.76
+products_anhoch-1712,Prince Of Persia The Lost Crown,Game,products_neptun-1156,Prince of Persia The Lost Crown,Game,Model Name & Category,0.71
+products_anhoch-1725,PS4,Game,products_neptun-1122,PS4,Game,Model Name & Category,0.71
+products_anhoch-1744,PS5,Game,products_neptun-1174,PS5,Game,Model Name & Category,0.71
+products_anhoch-1755,PS5,Game,products_neptun-1178,PS5,Game,Model Name & Category,0.71
+products_anhoch-1763,PS5,Game,products_neptun-1180,PS5,Game,Model Name & Category,0.88
+products_anhoch-1764,Pulsefire Mat,Mousepad,products_neptun-1020,Pulsefire Mat,Mousepad,Model Name & Category,0.27
+products_anhoch-1792,PS5,Game,products_neptun-1187,PS5,Game,Model Name & Category,0.76
+products_anhoch-1794,PS4,Game,products_neptun-1125,PS4,Game,Model Name & Category,0.65
+products_anhoch-1799,Cloud III Wireless,Headphones,products_neptun-932,Cloud III Wireless,Headphones,Model Name & Category,0.43
+products_anhoch-1826,PS5,Game,products_neptun-1191,PS5,Game,Model Name & Category,0.71
+products_anhoch-1835,PS4,Game,products_neptun-1128,PS4,Game,Model Name & Category,0.82
+products_anhoch-1838,PS4,Game,products_neptun-1133,PS4,Game,Model Name & Category,0.88
+products_anhoch-1851,Just Dance 2025,Game,products_neptun-1148,JUST DANCE 2025,Game,Model Name & Category,0.71
+products_anhoch-1858,PS5,Game,products_neptun-1192,PS5,Game,Model Name & Category,0.65
+products_anhoch-1867,Mario Kart 8 Deluxe,Game,products_neptun-1189,MARIO KART 8 DELUXE,Game,Model Name & Category,0.53
+products_anhoch-1876,PS5,Game,products_neptun-1198,PS5,Game,Model Name & Category,0.71
+products_anhoch-1881,PS5,Game,products_neptun-1201,PS5,Game,Model Name & Category,0.76
+products_anhoch-1884,Switch,Accessories,products_neptun-868,SWITCH,Accessories,Model Name & Category,0.20
+products_anhoch-1889,PS5,Game,products_neptun-1202,PS5,Game,Model Name & Category,0.71
+products_anhoch-1891,PS5,Game,products_neptun-1206,PS5,Game,Model Name & Category,0.82
+products_anhoch-1896,GTA Trilogy,Game,products_neptun-1157,GTA TRILOGY,Game,Model Name & Category,0.76
+products_anhoch-1912,PS4,Game,products_neptun-1136,PS4,Game,Model Name & Category,0.47
+products_anhoch-1956,The Crew Motorfest,Game,products_neptun-1158,The Crew Motorfest,Game,Model Name & Category,0.76
+products_anhoch-1960,Street Fighter 6,Game,products_neptun-1149,STREET FIGHTER 6,Game,Model Name & Category,0.59
+products_anhoch-1962,PS5,Game,products_neptun-1207,PS5,Game,Model Name & Category,0.65
+products_anhoch-1964,Mortal Kombat 11,Game,products_neptun-1119,Mortal Kombat 11,Game,Model Name & Category,0.65
+products_anhoch-1965,PS4,Game,products_neptun-1137,PS4,Game,Model Name & Category,0.82
+products_anhoch-1974,PS5,Game,products_neptun-1166,PS5,Game,Model Name & Category,0.53
+products_anhoch-2033,PS5,Game,products_neptun-1135,PS5,Game,Model Name & Category,0.24
+products_anhoch-2038,PS5,Game,products_neptun-1173,PS5,Game,Model Name & Category,0.06
+products_anhoch-2044,PS4,Game,products_neptun-1169,PS4,Game,Model Name & Category,0.71
+products_anhoch-2067,Cloud III Wireless,Headphones,products_neptun-933,Cloud III Wireless,Headphones,Model Name & Category,0.29
+products_anhoch-2080,PS4,Game,products_neptun-1179,PS4,Game,Model Name & Category,0.59
+products_anhoch-2081,PS5,Game,products_neptun-1208,PS5,Game,Model Name & Category,0.18
+products_anhoch-2135,PS4,Game,products_neptun-1197,PS4,Game,Model Name & Category,0.71
+products_anhoch-2146,Pulsefire Haste,Mouse,products_neptun-1102,Pulsefire Haste,Mouse,Model Name & Category,0.36
+products_anhoch-2179,PS4,Game,products_neptun-1140,PS4,Game,Model Name & Category,0.65
+products_anhoch-2205,PS4,Game,products_neptun-1153,PS4,Game,Model Name & Category,0.41
+products_anhoch-2351,Mortal Kombat 1,Game,products_neptun-1170,Mortal Kombat 1,Game,Model Name & Category,0.24
+products_anhoch-2402,Switch PRO Controller,Controller,products_neptun-879,SWITCH PRO CONTROLLER,Controller,Model Name & Category,0.12
+products_anhoch-2466,Gaming G300S,Mouse,products_neptun-1077,Gaming G300S,Mouse,Model Name & Category,0.36
+products_anhoch-2490,Pulsefire Haste 2,Mouse,products_neptun-1105,Pulsefire Haste 2,Mouse,Model Name & Category,0.43
+products_anhoch-2497,PS5,Accessories,products_neptun-869,PS5,Accessories,Model Name & Category,0.40
+products_anhoch-2711,Alloy Origins 60,Keyboard,products_neptun-973,Alloy Origins 60,Keyboard,Model Name & Category,0.58
+products_anhoch-2719,Gigantus V2,Mousepad,products_neptun-2115,Gigantus V2,Mousepad,Model Name & Category,0.55
+products_anhoch-2913,The Crew 2,Game,products_neptun-1120,THE CREW 2,Game,Model Name & Category,0.71
+products_anhoch-2944,NBA 2K25,Game,products_neptun-1165,NBA 2K25,Game,Model Name & Category,0.71
+products_anhoch-3121,DualSense Edge,Controller,products_neptun-891,Dualsense Edge,Controller,Model Name & Category,0.69
+products_anhoch-3245,Pulsefire Haste 2,Mouse,products_neptun-1106,Pulsefire Haste 2,Mouse,Model Name & Category,0.50
+products_anhoch-3367,Switch,Game,products_neptun-1146,Switch,Game,Model Name & Category,0.71
+products_anhoch-3643,FC 25,Game,products_neptun-1176,FC 25,Game,Model Name & Category,0.59
+products_anhoch-3646,GeForce GT710,Graphics Card,products_neptun-1370,GeForce GT 710,Graphics Card,Model Name & Category,0.36
+products_anhoch-3652,Core i5-12400F,Processor,products_neptun-1403,Core i5-12400F,Processor,Model Name & Category,0.25
+products_anhoch-3662,Core i5-14600K,Processor,products_neptun-1416,Core i5-14600K,Processor,Model Name & Category,0.08
+products_anhoch-3731,Ryzen 5 5600X,Processor,products_neptun-1405,Ryzen 5 5600X,Processor,Model Name & Category,0.33
+products_anhoch-3785,Ryzen 7 7800X3D,Processor,products_neptun-1426,Ryzen 7 7800X3D,Processor,Model Name & Category,0.33
+products_anhoch-3845,Core i5-14400,Processor,products_neptun-1411,Core i5-14400,Processor,Model Name & Category,0.17
+products_anhoch-3874,Ryzen 5 8500G,Processor,products_neptun-1407,Ryzen 5 8500G,Processor,Model Name & Category,0.42
+products_anhoch-3921,Core i7-14700KF,Processor,products_neptun-1423,Core i7-14700KF,Processor,Model Name & Category,0.25
+products_anhoch-3949,Core i3-14100F,Processor,products_neptun-1400,Core i3-14100F,Processor,Model Name & Category,0.08
+products_anhoch-3953,Radeon RX 7700 XT Gaming OC,Graphics Card,products_neptun-1382,Radeon RX 7700 XT GAMING OC,Graphics Card,Model Name & Category,0.29
+products_anhoch-4020,GeForce RTX 5070 VENTUS 2X OC,Graphics Card,products_neptun-1385,GeForce RTX 5070 VENTUS 2X OC,Graphics Card,Model Name & Category,0.29
+products_anhoch-4033,Ryzen 7 5800X,Processor,products_neptun-1410,Ryzen 7 5800X,Processor,Model Name & Category,0.25
+products_anhoch-4040,Extraction Error - Retries Failed,Case,products_neptun-1446,Extraction Error - Retries Failed,Case,Model Name & Category,0.27
+products_anhoch-4041,Extraction Error - Retries Failed,Case,products_neptun-1447,Extraction Error - Retries Failed,Case,Model Name & Category,0.27
+products_anhoch-4043,Extraction Error - Retries Failed,Case,products_neptun-1444,Extraction Error - Retries Failed,Case,Model Name & Category,0.18
+products_anhoch-4045,Extraction Error - Retries Failed,Case,products_neptun-1448,Extraction Error - Retries Failed,Case,Model Name & Category,0.18
+products_anhoch-4048,Extraction Error - Retries Failed,Case,products_neptun-1440,Extraction Error - Retries Failed,Case,Model Name & Category,0.00
+products_anhoch-4088,Core i5-14600KF,Processor,products_neptun-1415,Core i5-14600KF,Processor,Model Name & Category,0.17
+products_anhoch-4180,Ryzen 7 8700G,Processor,products_neptun-1419,Ryzen 7 8700G,Processor,Model Name & Category,0.25
+products_anhoch-4181,Core i3-12100,Processor,products_neptun-1402,Core i3-12100,Processor,Model Name & Category,0.17
+products_anhoch-4207,Core i9-14900KF,Processor,products_neptun-1425,Core i9-14900KF,Processor,Model Name & Category,0.25
+products_anhoch-4338,Ryzen 5 5600G,Processor,products_neptun-1406,Ryzen 5 5600G,Processor,Model Name & Category,0.33
+products_anhoch-4340,Ryzen 5 7600X,Processor,products_neptun-1413,Ryzen 5 7600X,Processor,Model Name & Category,0.25
+products_anhoch-4395,Core i3-14100,Processor,products_neptun-1404,Core i3-14100,Processor,Model Name & Category,0.17
+products_anhoch-4422,Ryzen 5 9600X,Processor,products_neptun-1417,Ryzen 5 9600X,Processor,Model Name & Category,0.33
+products_anhoch-4424,Core i5-14400F,Processor,products_neptun-1409,Core i5-14400F,Processor,Model Name & Category,0.25
+products_anhoch-4437,Ryzen 7 7700X,Processor,products_neptun-1421,Ryzen 7 7700X,Processor,Model Name & Category,0.25
+products_anhoch-4445,Ryzen 7 9700X,Processor,products_neptun-1422,Ryzen 7 9700X,Processor,Model Name & Category,0.33
+products_anhoch-4461,Galaxy S24 Plus,Phone Case,products_neptun-2686,Galaxy S24 Plus,Phone Case,Model Name & Category,0.50
+products_anhoch-4468,Kronos 3 R,Smartwatch,products_neptun-2564,Kronos 3 R,Smartwatch,Model Name & Category,0.12
+products_anhoch-4471,Redmi Note 14 Pro+,Smartphone,products_neptun-2334,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.38
+products_anhoch-4474,Redmi Note 14 Pro,Smartphone,products_neptun-2306,Redmi Note 14 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-4477,Redmi Note 14,Smartphone,products_neptun-2279,Redmi Note 14,Smartphone,Model Name & Category,0.31
+products_anhoch-4488,Vivoactive 5,Smartwatch,products_neptun-2622,Vivoactive 5,Smartwatch,Model Name & Category,0.24
+products_anhoch-4514,Redmi 14C,Smartphone,products_neptun-2253,Redmi 14C,Smartphone,Model Name & Category,0.38
+products_anhoch-4525,Redmi 14C,Smartphone,products_neptun-2254,Redmi 14C,Smartphone,Model Name & Category,0.38
+products_anhoch-4529,Galaxy A16,Smartphone,products_neptun-2292,Galaxy A16,Smartphone,Model Name & Category,0.50
+products_anhoch-4539,Redmi A3,Smartphone,products_neptun-2247,Redmi A3,Smartphone,Model Name & Category,0.38
+products_anhoch-4541,Redmi A3,Smartphone,products_neptun-2244,Redmi A3,Smartphone,Model Name & Category,0.31
+products_anhoch-4543,Redmi A3,Smartphone,products_neptun-2245,Redmi A3,Smartphone,Model Name & Category,0.38
+products_anhoch-4563,Galaxy Z Flip 6,Phone Case,products_neptun-2692,Galaxy Z Flip6,Phone Case,Model Name & Category,0.60
+products_anhoch-4567,Galaxy Z Fold 6,Phone Case,products_neptun-2691,Galaxy Z Fold6,Phone Case,Model Name & Category,0.50
+products_anhoch-4578,Redmi Watch 5 Lite,Smartwatch,products_neptun-2584,Redmi Watch 5 Lite,Smartwatch,Model Name & Category,0.50
+products_anhoch-4593,Redmi 14C,Smartphone,products_neptun-2259,Redmi 14C,Smartphone,Model Name & Category,0.31
+products_anhoch-4595,Redmi 14C,Smartphone,products_neptun-2258,Redmi 14C,Smartphone,Model Name & Category,0.31
+products_anhoch-4597,Redmi 14C,Smartphone,products_neptun-2260,Redmi 14C,Smartphone,Model Name & Category,0.31
+products_anhoch-4633,Galaxy A06,Smartphone,products_neptun-2261,Galaxy A06,Smartphone,Model Name & Category,0.44
+products_anhoch-4643,Redmi 14C,Smartphone,products_neptun-2255,Redmi 14C,Smartphone,Model Name & Category,0.19
+products_anhoch-4665,Redmi Watch 5 Active,Smartwatch,products_neptun-2568,Redmi Watch 5 Active,Smartwatch,Model Name & Category,0.47
+products_anhoch-4667,Redmi Watch 5 Active,Smartwatch,products_neptun-2569,Redmi Watch 5 Active,Smartwatch,Model Name & Category,0.47
+products_anhoch-4674,Galaxy A16,Smartphone,products_neptun-2278,Galaxy A16,Smartphone,Model Name & Category,0.38
+products_anhoch-4677,Galaxy A16,Smartphone,products_neptun-2276,Galaxy A16,Smartphone,Model Name & Category,0.38
+products_anhoch-4679,Galaxy A16,Smartphone,products_neptun-2293,Galaxy A16,Smartphone,Model Name & Category,0.25
+products_anhoch-4684,Redmi Watch 5 Lite,Smartwatch,products_neptun-2583,Redmi Watch 5 Lite,Smartwatch,Model Name & Category,0.47
+products_anhoch-4707,Kronos Prime,Smartwatch,products_neptun-2577,Kronos Prime,Smartwatch,Model Name & Category,0.53
+products_anhoch-4709,Kronos 3 Pro,Smartwatch,products_neptun-2559,Kronos 3 Pro,Smartwatch,Model Name & Category,0.41
+products_anhoch-4712,Kronos 3 Pro,Smartwatch,products_neptun-2558,Kronos 3 Pro,Smartwatch,Model Name & Category,0.53
+products_anhoch-4716,Kronos Vibe,Smartwatch,products_neptun-2553,Kronos Vibe,Smartwatch,Model Name & Category,0.53
+products_anhoch-4718,Kronos Vibe,Smartwatch,products_neptun-2554,Kronos Vibe,Smartwatch,Model Name & Category,0.65
+products_anhoch-4816,Redmi Note 14,Smartphone,products_neptun-2281,Redmi Note 14,Smartphone,Model Name & Category,0.31
+products_anhoch-4817,Redmi Note 14,Smartphone,products_neptun-2287,Redmi Note 14,Smartphone,Model Name & Category,0.19
+products_anhoch-4820,Redmi Note 14,Smartphone,products_neptun-2288,Redmi Note 14,Smartphone,Model Name & Category,0.31
+products_anhoch-4823,Redmi Note 14,Smartphone,products_neptun-2289,Redmi Note 14,Smartphone,Model Name & Category,0.31
+products_anhoch-4826,Redmi Note 14,Smartphone,products_neptun-2280,Redmi Note 14,Smartphone,Model Name & Category,0.06
+products_anhoch-4830,Redmi Note 14 Pro,Smartphone,products_neptun-2307,Redmi Note 14 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-4832,Redmi Note 14 Pro,Smartphone,products_neptun-2335,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.31
+products_anhoch-4834,Redmi Note 14 Pro+,Smartphone,products_neptun-2336,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.38
+products_anhoch-4838,Redmi Note 14 Pro+,Smartphone,products_neptun-2341,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.38
+products_anhoch-4840,Redmi Note 14 Pro+,Smartphone,products_neptun-2342,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.38
+products_anhoch-4860,Redmi Watch 4,Smartwatch,products_neptun-2595,Redmi Watch 4,Smartwatch,Model Name & Category,0.41
+products_anhoch-4863,Redmi Watch 4,Smartwatch,products_neptun-2596,Redmi Watch 4,Smartwatch,Model Name & Category,0.41
+products_anhoch-4896,Redmi Note 14 Pro+,Smartphone,products_neptun-2343,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.38
+products_anhoch-4908,iPhone 16e,Smartphone,products_neptun-2367,iPhone 16e,Smartphone,Model Name & Category,0.38
+products_anhoch-4913,Galaxy S24,Smartphone,products_neptun-2356,Galaxy S24,Smartphone,Model Name & Category,0.38
+products_anhoch-4914,Galaxy S24,Smartphone,products_neptun-2363,Galaxy S24,Smartphone,Model Name & Category,0.44
+products_anhoch-4928,Vivoactive 5,Smartwatch,products_neptun-2624,Vivoactive 5,Smartwatch,Model Name & Category,0.41
+products_anhoch-4930,iPhone 16e,Smartphone,products_neptun-2386,iPhone 16e,Smartphone,Model Name & Category,0.25
+products_anhoch-4959,Venu 3S,Smartwatch,products_neptun-2654,Venu 3S,Smartwatch,Model Name & Category,0.41
+products_anhoch-4961,Redmi Note 14 Pro+,Smartphone,products_neptun-2441,Redmi Note 14 Pro+,Smartphone,Model Name & Category,0.25
+products_anhoch-4966,Galaxy S24 Plus,Phone Case,products_neptun-2688,Galaxy S24 Plus,Phone Case,Model Name & Category,0.20
+products_anhoch-4979,Galaxy S24,Smartphone,products_neptun-2364,Galaxy S24,Smartphone,Model Name & Category,0.31
+products_anhoch-4982,Galaxy S25 Ultra,Smartphone,products_neptun-2428,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-4983,Galaxy S25 Ultra,Smartphone,products_neptun-2429,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-5017,Galaxy S25 Ultra,Smartphone,products_neptun-2438,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-5018,Galaxy S25+,Smartphone,products_neptun-2405,Galaxy S25+,Smartphone,Model Name & Category,0.25
+products_anhoch-5019,Galaxy S25 Ultra,Smartphone,products_neptun-2430,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.31
+products_anhoch-5025,Galaxy S24,Smartphone,products_neptun-2357,Galaxy S24,Smartphone,Model Name & Category,0.31
+products_anhoch-5027,Galaxy S25+,Smartphone,products_neptun-2418,Galaxy S25+,Smartphone,Model Name & Category,0.38
+products_anhoch-5029,Forerunner 165,Smartwatch,products_neptun-2627,forerunner 165,Smartwatch,Model Name & Category,0.47
+products_anhoch-5044,iPhone 14,Smartphone,products_neptun-2359,iPhone 14,Smartphone,Model Name & Category,0.25
+products_anhoch-5063,Venu 3S,Smartwatch,products_neptun-2655,Venu 3S,Smartwatch,Model Name & Category,0.47
+products_anhoch-5065,14T,Smartphone,products_neptun-2454,14T,Smartphone,Model Name & Category,0.31
+products_anhoch-5066,14T,Smartphone,products_neptun-2352,14T,Smartphone,Model Name & Category,0.31
+products_anhoch-5070,iPhone 16,Smartphone,products_neptun-2387,iPhone 16,Smartphone,Model Name & Category,0.31
+products_anhoch-5072,14T Pro,Smartphone,products_neptun-2365,14T Pro,Smartphone,Model Name & Category,0.29
+products_anhoch-5076,14T Pro,Smartphone,products_neptun-2465,14T Pro,Smartphone,Model Name & Category,0.25
+products_anhoch-5080,Galaxy S25,Smartphone,products_neptun-2372,Galaxy S25,Smartphone,Model Name & Category,0.38
+products_anhoch-5082,Galaxy S24,Smartphone,products_neptun-2358,Galaxy S24,Smartphone,Model Name & Category,0.31
+products_anhoch-5084,Galaxy S25+,Smartphone,products_neptun-2407,Galaxy S25+,Smartphone,Model Name & Category,0.38
+products_anhoch-5085,Galaxy S25 Ultra,Smartphone,products_neptun-2431,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-5103,Forerunner 55,Smartwatch,products_neptun-2612,Forerunner 55,Smartwatch,Model Name & Category,0.47
+products_anhoch-5113,iPhone 14,Smartphone,products_neptun-2362,iPhone 14,Smartphone,Model Name & Category,0.25
+products_anhoch-5130,Galaxy S25+,Smartphone,products_neptun-2420,Galaxy S25+,Smartphone,Model Name & Category,0.38
+products_anhoch-5138,Galaxy Watch Ultra,Smartwatch,products_neptun-2656,Galaxy Watch Ultra,Smartwatch,Model Name & Category,0.18
+products_anhoch-5144,Lily 2,Smartwatch,products_neptun-2625,Lily 2,Smartwatch,Model Name & Category,0.41
+products_anhoch-5149,Fenix 8,Smartwatch,products_neptun-2679,FENIX 8,Smartwatch,Model Name & Category,0.47
+products_anhoch-5153,Fenix 8,Smartwatch,products_neptun-2676,FENIX 8,Smartwatch,Model Name & Category,0.47
+products_anhoch-5154,Fenix 8,Smartwatch,products_neptun-2678,FENIX 8,Smartwatch,Model Name & Category,0.41
+products_anhoch-5162,Instinct 3,Smartwatch,products_neptun-2653,Instinct 3,Smartwatch,Model Name & Category,0.41
+products_anhoch-5167,iPhone 16 Pro,Smartphone,products_neptun-2411,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5180,iPhone 16 Pro,Smartphone,products_neptun-2412,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5198,Instinct 2 Solar,Smartwatch,products_neptun-2636,Instinct 2 Solar,Smartwatch,Model Name & Category,0.53
+products_anhoch-5206,iPhone 16e,Smartphone,products_neptun-2366,iPhone 16e,Smartphone,Model Name & Category,0.25
+products_anhoch-5223,iPhone 16 Pro,Smartphone,products_neptun-2414,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5225,Forerunner 165 Music,Smartwatch,products_neptun-2634,forerunner 165 Music,Smartwatch,Model Name & Category,0.41
+products_anhoch-5238,Galaxy S25+,Smartphone,products_neptun-2404,Galaxy S25+,Smartphone,Model Name & Category,0.38
+products_anhoch-5240,Galaxy S25+,Smartphone,products_neptun-2504,Galaxy S25+,Smartphone,Model Name & Category,0.38
+products_anhoch-5241,Galaxy S25+,Smartphone,products_neptun-2505,Galaxy S25+,Smartphone,Model Name & Category,0.25
+products_anhoch-5251,iPhone 16 Pro,Smartphone,products_neptun-2424,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5254,Fenix 8,Smartwatch,products_neptun-2681,FENIX 8,Smartwatch,Model Name & Category,0.47
+products_anhoch-5277,Vivoactive 5,Smartwatch,products_neptun-2623,Vivoactive 5,Smartwatch,Model Name & Category,0.29
+products_anhoch-5279,iPhone 16 Pro,Smartphone,products_neptun-2413,iPhone 16 Pro,Smartphone,Model Name & Category,0.25
+products_anhoch-5280,iPhone 16 Pro,Smartphone,products_neptun-2425,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5281,iPhone 16 Pro Max,Smartphone,products_neptun-2432,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5286,iPhone 15,Smartphone,products_neptun-2369,iPhone 15,Smartphone,Model Name & Category,0.25
+products_anhoch-5288,Forerunner 965,Smartwatch,products_neptun-2660,Forerunner 965,Smartwatch,Model Name & Category,0.41
+products_anhoch-5299,iPhone 14,Smartphone,products_neptun-2360,iPhone 14,Smartphone,Model Name & Category,0.19
+products_anhoch-5307,Instinct 3,Smartwatch,products_neptun-2659,Instinct 3,Smartwatch,Model Name & Category,0.41
+products_anhoch-5323,iPhone 16,Smartphone,products_neptun-2389,iPhone 16,Smartphone,Model Name & Category,0.25
+products_anhoch-5328,Galaxy S25 Ultra,Smartphone,products_neptun-2439,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-5334,Fenix 8,Smartwatch,products_neptun-2680,FENIX 8,Smartwatch,Model Name & Category,0.47
+products_anhoch-5345,Galaxy Watch Ultra,Smartwatch,products_neptun-2657,Galaxy Watch Ultra,Smartwatch,Model Name & Category,0.35
+products_anhoch-5350,Galaxy S25 Ultra,Smartphone,products_neptun-2528,Galaxy S25 Ultra,Smartphone,Model Name & Category,0.38
+products_anhoch-5360,Forerunner 165,Smartwatch,products_neptun-2635,forerunner 165,Smartwatch,Model Name & Category,0.47
+products_anhoch-5366,iPhone 16 Pro Max,Smartphone,products_neptun-2434,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5375,Fenix 8,Smartwatch,products_neptun-2667,FENIX 8,Smartwatch,Model Name & Category,0.35
+products_anhoch-5378,Fenix 8,Smartwatch,products_neptun-2673,FENIX 8,Smartwatch,Model Name & Category,0.41
+products_anhoch-5381,Fenix 8,Smartwatch,products_neptun-2674,FENIX 8,Smartwatch,Model Name & Category,0.41
+products_anhoch-5393,Forerunner 165,Smartwatch,products_neptun-2626,forerunner 165,Smartwatch,Model Name & Category,0.22
+products_anhoch-5396,iPhone 16,Smartphone,products_neptun-2498,iPhone 16,Smartphone,Model Name & Category,0.44
+products_anhoch-5401,iPhone 16 Pro Max,Smartphone,products_neptun-2435,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5405,iPhone 16 Plus,Smartphone,products_neptun-2403,iPhone 16 Plus,Smartphone,Model Name & Category,0.31
+products_anhoch-5408,iPhone 15,Smartphone,products_neptun-2370,iPhone 15,Smartphone,Model Name & Category,0.25
+products_anhoch-5417,iPhone 16 Pro,Smartphone,products_neptun-2426,iPhone 16 Pro,Smartphone,Model Name & Category,0.31
+products_anhoch-5430,Instinct 3,Smartwatch,products_neptun-2652,Instinct 3,Smartwatch,Model Name & Category,0.12
+products_anhoch-5437,14T,Smartphone,products_neptun-2354,14T,Smartphone,Model Name & Category,0.31
+products_anhoch-5461,iPhone 16 Pro Max,Smartphone,products_neptun-2532,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5465,Redmi Note 13,Smartphone,products_neptun-2272,Redmi Note 13,Smartphone,Model Name & Category,0.38
+products_anhoch-5472,Galaxy S25+,Smartphone,products_neptun-2381,Galaxy S25,Smartphone,Model Name & Category,0.31
+products_anhoch-5486,iPhone 16 Pro Max,Smartphone,products_neptun-2534,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5493,Fenix 8,Smartwatch,products_neptun-2677,FENIX 8,Smartwatch,Model Name & Category,0.24
+products_anhoch-5500,Kronos 4 Plus,Smartwatch,products_neptun-2582,Kronos 4 Plus,Smartwatch,Model Name & Category,0.65
+products_anhoch-5501,Kronos 4 Mini,Smartwatch,products_neptun-2576,Kronos 4 Mini,Smartwatch,Model Name & Category,0.65
+products_anhoch-5519,Galaxy S24 FE,Smartphone,products_neptun-2349,Galaxy S24FE,Smartphone,Model Name & Category,0.38
+products_anhoch-5523,Galaxy S24 FE,Smartphone,products_neptun-2348,Galaxy S24FE,Smartphone,Model Name & Category,0.31
+products_anhoch-5529,iPhone 16,Smartphone,products_neptun-2488,iPhone 16,Smartphone,Model Name & Category,0.31
+products_anhoch-5538,iPhone 15,Smartphone,products_neptun-2371,iPhone 15,Smartphone,Model Name & Category,0.25
+products_anhoch-5539,iPhone 15,Smartphone,products_neptun-2469,iPhone 15,Smartphone,Model Name & Category,0.25
+products_anhoch-5540,iPhone 15,Smartphone,products_neptun-2368,iPhone 15,Smartphone,Model Name & Category,0.19
+products_anhoch-5546,iPhone 16 Pro Max,Smartphone,products_neptun-2535,iPhone 16 Pro Max,Smartphone,Model Name & Category,0.31
+products_anhoch-5551,Galaxy S24 FE,Smartphone,products_neptun-2449,Galaxy S24FE,Smartphone,Model Name & Category,0.38
+products_anhoch-5553,Galaxy S24 FE,Smartphone,products_neptun-2350,Galaxy S24FE,Smartphone,Model Name & Category,0.38
+products_anhoch-5566,Galaxy S24 FE,Smartphone,products_neptun-2450,Galaxy S24FE,Smartphone,Model Name & Category,0.38
+products_anhoch-5580,MDR-ZX110APB,Headphones,products_neptun-337,MDRZX110APB,Headphones,Model Name & Category,0.43
+products_anhoch-5583,MDR-ZX110APP,Headphones,products_neptun-335,MDRZX110APP,Headphones,Model Name & Category,0.43
+products_anhoch-5586,MDR-ZX110APW,Headphones,products_neptun-336,MDRZX110APW,Headphones,Model Name & Category,0.21
+products_anhoch-5594,MDR-ZX310APB,Headphones,products_neptun-340,MDRZX310APB,Headphones,Model Name & Category,0.50
+products_anhoch-5596,MDR-ZX310APR,Headphones,products_neptun-333,MDRZX310APR,Headphones,Model Name & Category,0.57
+products_anhoch-5606,EMBERTON III,Speaker,products_neptun-476,EMBERTON III,Speaker,Model Name & Category,0.21
+products_anhoch-5639,PARTYBOX Encore,Speaker,products_neptun-277,PARTYBOX ENCORE,Speaker,Model Name & Category,0.50
+products_anhoch-5647,Redmi Buds 6,Headphones,products_neptun-2793,Redmi Buds 6,Headphones,Model Name & Category,0.36
+products_anhoch-5676,Tune 525,Headphones,products_neptun-366,TUNE 525,Headphones,Model Name & Category,0.36
+products_anhoch-5823,BPS-354,Speaker,products_neptun-267,BPS-354,Speaker,Model Name & Category,0.57
+products_anhoch-5825,MAJOR V,Headphones,products_neptun-397,MAJOR V,Headphones,Model Name & Category,0.29
+products_anhoch-5830,WILLEN II,Speaker,products_neptun-467,WILLEN II,Speaker,Model Name & Category,0.36
+products_anhoch-5846,Redmi Buds 6,Headphones,products_neptun-2807,Redmi Buds 6,Headphones,Model Name & Category,0.50
+products_anhoch-5849,Redmi Buds 6,Headphones,products_neptun-2809,Redmi Buds 6,Headphones,Model Name & Category,0.21
+products_anhoch-5854,MAJOR IV,Headphones,products_neptun-391,MAJOR IV,Headphones,Model Name & Category,0.21
+products_anhoch-5887,Redmi Buds 6 Active,Headphones,products_neptun-2906,Redmi Buds 6 Active,Headphones,Model Name & Category,0.29
+products_anhoch-5889,Redmi Buds 6 Active,Headphones,products_neptun-2806,Redmi Buds 6 Active,Headphones,Model Name & Category,0.14
+products_anhoch-5908,Redmi Buds 6 Lite,Headphones,products_neptun-2824,Redmi Buds 6 Lite,Headphones,Model Name & Category,0.43
+products_anhoch-5929,MDR-ZX310APL,Headphones,products_neptun-341,MDRZX310APL,Headphones,Model Name & Category,0.43
+products_anhoch-5935,HT-SF150,Soundbar,products_neptun-291,HTSF150,Soundbar,Model Name & Category,0.31
+products_anhoch-5943,MDR-ZX310APW,Headphones,products_neptun-332,MDRZX310APW,Headphones,Model Name & Category,0.43
+products_anhoch-6026,MAJOR IV,Headphones,products_neptun-392,MAJOR IV,Headphones,Model Name & Category,0.21
+products_anhoch-6137,Beat Go,Speaker,products_neptun-433,BEAT GO,Speaker,Model Name & Category,0.36
+products_anhoch-6139,Beat Go,Speaker,products_neptun-439,BEAT GO,Speaker,Model Name & Category,0.14
+products_anhoch-6164,SRS-XB100B,Speaker,products_neptun-428,SRS XB100B,Speaker,Model Name & Category,0.29
+products_anhoch-6173,Earpods,Headphones,products_neptun-2805,EarPods,Headphones,Model Name & Category,0.79
+products_anhoch-6210,HT-S400,Soundbar,products_neptun-302,HTS 400,Soundbar,Model Name & Category,0.21
+products_anhoch-6327,MHC-V13,Speaker,products_neptun-273,MHC V13,Speaker,Model Name & Category,0.64
+products_anhoch-6351,HT-S40R,Soundbar,products_neptun-304,HTS 40R,Soundbar,Model Name & Category,0.31
+products_anhoch-6358,MAJOR V,Headphones,products_neptun-398,MAJOR V,Headphones,Model Name & Category,0.14
+products_anhoch-6525,SRS-XB100D,Speaker,products_neptun-430,SRS XB100D,Speaker,Model Name & Category,0.29
+products_anhoch-6611,UE-50DU7172UXXH,TV,products_neptun-59,UE 50 DU 7172 UXXH,TV,Model Name & Category,0.25
+products_anhoch-6623,SRS-XB100L,Speaker,products_neptun-429,SRS XB100L,Speaker,Model Name & Category,0.45
+products_anhoch-6631,UE50DU8072UXXH,TV,products_neptun-73,UE 50 DU 8072 UXXH,TV,Model Name & Category,0.31
+products_anhoch-6712,Redmi Buds 6 Lite,Headphones,products_neptun-2822,Redmi Buds 6 Lite,Headphones,Model Name & Category,0.36
+products_anhoch-6754,UE50CU7092,TV,products_neptun-52,UE 50 CU 7092,TV,Model Name & Category,0.44
+products_anhoch-6868,UE55DU8072UXXH,TV,products_neptun-92,UE 55 DU 8072 UXXH,TV,Model Name & Category,0.38
+products_anhoch-6939,UE55DU7172UXXH,TV,products_neptun-74,UE 55 DU 7172 UXXH,TV,Model Name & Category,0.25
+products_anhoch-7023,Redmi Buds 6 Lite,Headphones,products_neptun-2823,Redmi Buds 6 Lite,Headphones,Model Name & Category,0.36
+products_anhoch-7171,Mini 4 Pro,Drone,products_neptun-5058,Mini 4 Pro,Drone,Model Name & Category,0.40
+products_anhoch-7222,Neo Drone,Drone,products_neptun-5053,Neo Drone,Drone,Model Name & Category,0.40
+products_anhoch-7281,Mini 4K,Drone,products_neptun-5054,Mini 4K,Drone,Model Name & Category,0.27
+products_anhoch-7712,Archer T2U,Wireless Network Adapter,products_neptun-1712,Archer T2U,Wireless Network Adapter,Model Name & Category,0.36
+products_anhoch-7989,Archer C80,Router,products_neptun-1738,Archer C80,Router,Model Name & Category,0.31
+products_anhoch-8001,Archer T3U Plus,Wireless Network Adapter,products_neptun-1724,Archer T3U Plus,Wireless Network Adapter,Model Name & Category,0.36
+products_anhoch-8002,Archer T2U Plus,Wireless Network Adapter,products_neptun-1721,Archer T2U Plus,Wireless Network Adapter,Model Name & Category,0.27
+products_anhoch-8678,GP60NB60,DVD Drive,products_neptun-2134,GP60NB60,DVD Drive,Model Name & Category,0.36
+products_anhoch-8777,XS1000,SSD (Solid State Drive),products_neptun-2076,XS1000,SSD (Solid-State Drive),Model Name & Category,0.60
+products_anhoch-8952,DeskJet 2876,Printer,products_neptun-1594,DeskJet 2876,Printer,Model Name & Category,0.25
+products_anhoch-8964,DeskJet 2320,Printer,products_neptun-1591,DeskJet 2320,Printer,Model Name & Category,0.33
+products_anhoch-8970,Smart Tank 585,Printer,products_neptun-1605,Smart Tank 585,Printer,Model Name & Category,0.25
+products_anhoch-8971,LaserJet M111a,Printer,products_neptun-1596,LaserJet M111a,Printer,Model Name & Category,0.33
+products_anhoch-8972,LaserJet MFP M236dw,Printer,products_neptun-1606,LaserJet MFP M236dw,Printer,Model Name & Category,0.17
+products_anhoch-8986,LaserJet MFP M236sdn,Printer,products_neptun-1607,LaserJet MFP M236sdn,Printer,Model Name & Category,0.17
+products_anhoch-8999,LaserJet M111w,Printer,products_neptun-1597,LaserJet M111w,Printer,Model Name & Category,0.25
+products_anhoch-9001,LaserJet MFP M141w,Printer,products_neptun-1599,LaserJet MFP M141w,Printer,Model Name & Category,0.17
+products_anhoch-9025,LaserJet MFP M236d,Printer,products_neptun-1603,LaserJet MFP M236d,Printer,Model Name & Category,0.33
+products_anhoch-9081,OfficeJet Pro 9720,Printer,products_neptun-1608,OfficeJet Pro 9720,Printer,Model Name & Category,0.17
+products_anhoch-1679,Sonic Colours Ultimate,Game,products_neptun-1171,The Last of Us Part II,Game,Category & Specs,0.82
+products_anhoch-1716,Rabbids Party of Legends,Game,products_neptun-1118,ASSASSIN'S CREED ORIGINS,Game,Category & Specs,0.81
+products_anhoch-1779,Crash Bandicoot N-Sane Trilogy,Game,products_neptun-1121,The Lost Crown,Game,Category & Specs,0.82
+products_anhoch-1823,Just Cause 3,Game,products_neptun-1123,ASSASSIN'S CREED VALHALLA,Game,Category & Specs,0.82
+products_anhoch-1827,Mortal Kombat 11 Ultimate Edition,Game,products_neptun-1124,Assassin's Creed Valhalla,Game,Category & Specs,0.82
+products_anhoch-1972,Mafia Trilogy,Game,products_neptun-1126,GTA 5 PREMIUM EDITION,Game,Category & Specs,0.88
+products_anhoch-2214,PS4,Game,products_neptun-1127,Assassin's Creed Odyssey,Game,Category & Specs,0.82
+products_anhoch-2240,Crash Bandicoot 4,Game,products_neptun-1129,God of War III,Game,Category & Specs,0.82
+products_anhoch-2257,PS4,Game,products_neptun-1130,Nathan Drake Collection,Game,Category & Specs,0.88
+products_anhoch-2290,Tekken 7,Game,products_neptun-1132,ASSETTO CORSA ULTIMATE EDITION,Game,Category & Specs,0.82
+products_anhoch-2303,PS4,Game,products_neptun-1138,The Last of Us,Game,Category & Specs,0.82
+products_anhoch-2305,PS4,Game,products_neptun-1145,LEGO STAR WARS THE SKYWALKER,Game,Category & Specs,0.82
+products_anhoch-2327,Lego Batman 3,Game,products_neptun-1152,ASSASSINS CREED MIRAGE,Game,Category & Specs,0.82
+products_anhoch-2329,Lego Marvel Super Heroes 2,Game,products_neptun-1159,Minecraft Starter Collection,Game,Category & Specs,0.88
+products_anhoch-2357,PS4,Game,products_neptun-1163,Elden Ring,Game,Category & Specs,0.88
+products_anhoch-2364,PS4,Game,products_neptun-1175,Diablo IV,Game,Category & Specs,0.82
+products_anhoch-2368,PS4,Game,products_neptun-1183,Horizon Forbidden West,Game,Category & Specs,0.88
+products_anhoch-2369,PS4,Game,products_neptun-1188,Model Name: Modern WarfareIII,Game,Category & Specs,0.88
+products_anhoch-2387,PS5,Game,products_neptun-1131,PS5 Riders Republic,Game,Category & Specs,0.82
+products_anhoch-2404,PS4,Game,products_neptun-1193,GRAN TURISMO 7,Game,Category & Specs,0.88
+products_anhoch-2441,PS4,Game,products_neptun-1194,God of War Ragnarok,Game,Category & Specs,0.88
+products_anhoch-2461,PS5,Game,products_neptun-1143,IGRA,Game,Category & Specs,0.82
+products_anhoch-2475,PS5,Game,products_neptun-1144,LEGO STAR WARS THE SKYWALKER,Game,Category & Specs,0.82
+products_anhoch-2505,PS4,Game,products_neptun-1147,GOTHAM KNIGHTS,Game,Category & Specs,0.82
+products_anhoch-2507,Spyro: Reignited Trilogy,Game,products_neptun-1151,SKULL AND BONES,Game,Category & Specs,0.82
+products_anhoch-2509,PS4,Game,products_neptun-1154,ASSASSINS CREED MIRAGE,Game,Category & Specs,0.82
+products_anhoch-2519,PS5,Game,products_neptun-1155,The Crew Motorfest,Game,Category & Specs,0.82
+products_anhoch-2520,PS5,Game,products_neptun-1162,Elden Ring,Game,Category & Specs,0.82
+products_anhoch-2529,PS4,Game,products_neptun-1164,FINAL FANTASY XVI,Game,Category & Specs,0.82
+products_anhoch-2558,New Pokemon Snap,Game,products_neptun-1160,MINECRAFT,Game,Category & Specs,0.82
+products_anhoch-2585,PS5,Game,products_neptun-1182,FC 25,Game,Category & Specs,0.88
+products_anhoch-2589,PS4,Game,products_neptun-1177,UNCHARTED Legacy of ThievesCollection,Game,Category & Specs,0.82
+products_anhoch-2590,PS5,Game,products_neptun-1181,OUTLAWS,Game,Category & Specs,0.88
+products_anhoch-2593,PS5,Game,products_neptun-1185,Horizon Forbidden West,Game,Category & Specs,0.82
+products_anhoch-2606,Hot Wheels Unleashed,Game,products_neptun-1184,Tekken 8,Game,Category & Specs,0.82
+products_anhoch-2635,PS5,Game,products_neptun-1186,Miles Morales,Game,Category & Specs,0.88
+products_anhoch-2644,PS5,Game,products_neptun-1204,GRAN TURISMO 7,Game,Category & Specs,0.88
+products_anhoch-2649,PS4,Game,products_neptun-1196,Astro Bot,Game,Category & Specs,0.82
+products_anhoch-2657,Amiibo Mario,Controller,products_neptun-882,Dualsense Wireless Controller,Controller,Category & Specs,0.81
+products_anhoch-2658,PS5,Game,products_neptun-1199,Ratchet & Clank: Rift Apart,Game,Category & Specs,0.88
+products_anhoch-2674,Shin Megami Tensei V,Game,products_neptun-1205,PS5 Stellar Blade,Game,Category & Specs,0.82
+products_anhoch-2722,PS5,Game,products_neptun-1209,Igra za PS5,Game,Category & Specs,0.82
+products_anhoch-2757,PS5,Game,products_neptun-1210,Ghost of Tsushima: Director's Cut,Game,Category & Specs,0.82
+products_anhoch-2930,PS5,Game,products_neptun-1161,F1 24,Game,Category & Specs,0.85
+products_anhoch-3051,PS5,Game,products_neptun-1200,Marvel's Spider-Man 2,Game,Category & Specs,0.82
+products_anhoch-3530,Stream Deck,Controller,products_neptun-884,Dualsense Wireless Controller,Controller,Category & Specs,0.81
+products_anhoch-3547,Stream Deck Pedal,Controller,products_neptun-886,Dualsense Wireless Controller,Controller,Category & Specs,0.81
+products_anhoch-3584,Stream Deck XL,Controller,products_neptun-889,Dualsense Wireless Controller,Controller,Category & Specs,0.81
+products_anhoch-5480,20K,Power Bank,products_neptun-2959,SUPREM 20HD,Power Bank,Category & Specs,0.82
+products_anhoch-8427,Tapo H200,Router,products_neptun-1718,TL-WR844N,Router,Category & Specs,0.81
